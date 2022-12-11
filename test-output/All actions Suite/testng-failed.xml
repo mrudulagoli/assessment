@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All actions Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="com.assessment01.testsuite.TC006_DropdownTest">
+        <methods>
+          <include name="LaunchBrowser"/>
+          <include name="LoadConfigurations"/>
+          <include name="submitLogin"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.assessment01.testsuite.TC006_DropdownTest -->
+      <class name="com.assessment01.testsuite.TC004_ContextMenuTest">
+        <methods>
+          <include name="LoadConfigurations"/>
+          <include name="tearDown"/>
+          <include name="LaunchBrowser"/>
+          <include name="submitLogin"/>
+        </methods>
+      </class> <!-- com.assessment01.testsuite.TC004_ContextMenuTest -->
+      <class name="com.assessment01.testsuite.TC0015_JavaScriptAlertsTest">
+        <methods>
+          <include name="LaunchBrowser"/>
+          <include name="LoadConfigurations"/>
+          <include name="testJSAlerts"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.assessment01.testsuite.TC0015_JavaScriptAlertsTest -->
+      <class name="com.assessment01.testsuite.TC0011_FileUploadTest">
+        <methods>
+          <include name="LoadConfigurations"/>
+          <include name="LaunchBrowser"/>
+          <include name="fileUpload"/>
+        </methods>
+      </class> <!-- com.assessment01.testsuite.TC0011_FileUploadTest -->
+      <class name="com.assessment01.testsuite.TC0014_MouseHoverTest">
+        <methods>
+          <include name="LoadConfigurations"/>
+          <include name="LaunchBrowser"/>
+          <include name="mouseHover"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.assessment01.testsuite.TC0014_MouseHoverTest -->
+      <class name="com.assessment01.testsuite.TC0016_JavaScriptErrorTest">
+        <methods>
+          <include name="LaunchBrowser"/>
+          <include name="LoadConfigurations"/>
+          <include name="testJSError"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.assessment01.testsuite.TC0016_JavaScriptErrorTest -->
+      <class name="com.assessment01.testsuite.TC0013_IframeTest">
+        <methods>
+          <include name="LoadConfigurations"/>
+          <include name="LaunchBrowser"/>
+          <include name="submitLogin"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.assessment01.testsuite.TC0013_IframeTest -->
+      <class name="com.assessment01.testsuite.TC009_DynamicLoadingTest">
+        <methods>
+          <include name="LoadConfigurations"/>
+          <include name="tearDown"/>
+          <include name="submitLogin"/>
+          <include name="LaunchBrowser"/>
+        </methods>
+      </class> <!-- com.assessment01.testsuite.TC009_DynamicLoadingTest -->
+      <class name="com.assessment01.testsuite.TC002_InvalidLoginTest">
+        <methods>
+          <include name="LaunchBrowser"/>
+          <include name="LoadConfigurations"/>
+          <include name="submitLogin"/>
+          <include name="enterLoginDetails"/>
+        </methods>
+      </class> <!-- com.assessment01.testsuite.TC002_InvalidLoginTest -->
+      <class name="com.assessment01.testsuite.TC008_DynamicControlsTest">
+        <methods>
+          <include name="LoadConfigurations"/>
+          <include name="tearDown"/>
+          <include name="testDynamicControls"/>
+          <include name="LaunchBrowser"/>
+        </methods>
+      </class> <!-- com.assessment01.testsuite.TC008_DynamicControlsTest -->
+      <class name="com.assessment01.testsuite.TC005_DragDropTest">
+        <methods>
+          <include name="LoadConfigurations"/>
+          <include name="LaunchBrowser"/>
+          <include name="tearDown"/>
+          <include name="dragNdrop"/>
+        </methods>
+      </class> <!-- com.assessment01.testsuite.TC005_DragDropTest -->
+      <class name="com.assessment01.testsuite.TC007_DynamicContentTest">
+        <methods>
+          <include name="LoadConfigurations"/>
+          <include name="LaunchBrowser"/>
+          <include name="tearDown"/>
+          <include name="submitLogin"/>
+        </methods>
+      </class> <!-- com.assessment01.testsuite.TC007_DynamicContentTest -->
+      <class name="com.assessment01.testsuite.TC003_CheckboxesTest">
+        <methods>
+          <include name="LaunchBrowser"/>
+          <include name="LoadConfigurations"/>
+          <include name="tearDown"/>
+          <include name="submitLogin"/>
+        </methods>
+      </class> <!-- com.assessment01.testsuite.TC003_CheckboxesTest -->
+      <class name="com.assessment01.testsuite.TC0018_NotificationMessageTest">
+        <methods>
+          <include name="LaunchBrowser"/>
+          <include name="LoadConfigurations"/>
+          <include name="submitLogin"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.assessment01.testsuite.TC0018_NotificationMessageTest -->
+      <class name="com.assessment01.testsuite.TC003_AllActionsTest2">
+        <methods>
+          <include name="LaunchBrowser"/>
+          <include name="LoadConfigurations"/>
+          <include name="submitLogin"/>
+        </methods>
+      </class> <!-- com.assessment01.testsuite.TC003_AllActionsTest2 -->
+      <class name="com.assessment01.testsuite.TC0012_FloatingMenuTest">
+        <methods>
+          <include name="LoadConfigurations"/>
+          <include name="tearDown"/>
+          <include name="LaunchBrowser"/>
+          <include name="submitLogin"/>
+        </methods>
+      </class> <!-- com.assessment01.testsuite.TC0012_FloatingMenuTest -->
+      <class name="com.assessment01.testsuite.TC0017_OpenNewTabTest">
+        <methods>
+          <include name="submitLogin"/>
+          <include name="LoadConfigurations"/>
+          <include name="tearDown"/>
+          <include name="LaunchBrowser"/>
+        </methods>
+      </class> <!-- com.assessment01.testsuite.TC0017_OpenNewTabTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [All actions Suite] -->

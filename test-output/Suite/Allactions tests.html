@@ -1,0 +1,1015 @@
+<html>
+<head>
+<title>TestNG:  Allactions tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Allactions tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/19</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Dec 07 13:21:54 EST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (118 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.assessment01.testsuite.TC0010_FileDownloadTest.LaunchBrowser()'><b>LaunchBrowser</b><br>Test class: com.assessment01.testsuite.TC0010_FileDownloadTest<br>Parameters: chrome</td>
+<td><div><pre>java.lang.Error: Unresolved compilation problem: 
+	Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+
+	at com.Assessment01.reusableclass.BaseClass.LaunchBrowser(BaseClass.java:44)
+	at com.assessment01.testsuite.TC0010_FileDownloadTest.LaunchBrowser(TC0010_FileDownloadTest.java:24)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace187472540", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace187472540'><pre>java.lang.Error: Unresolved compilation problem: 
+	Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+
+	at com.Assessment01.reusableclass.BaseClass.LaunchBrowser(BaseClass.java:44)
+	at com.assessment01.testsuite.TC0010_FileDownloadTest.LaunchBrowser(TC0010_FileDownloadTest.java:24)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+	at org.testng.TestRunner.run(TestRunner.java:589)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.assessment01.testsuite.TC0010_FileDownloadTest@158d2680</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.assessment01.testsuite.TC004_ContextMenuTest.LaunchBrowser()'><b>LaunchBrowser</b><br>Test class: com.assessment01.testsuite.TC004_ContextMenuTest</td>
+<td></td>
+<td>-1670437314</td>
+<td>com.assessment01.testsuite.TC004_ContextMenuTest@67c27493</td></tr>
+<tr>
+<td title='com.assessment01.testsuite.TC004_ContextMenuTest.tearDown()'><b>tearDown</b><br>Test class: com.assessment01.testsuite.TC004_ContextMenuTest</td>
+<td></td>
+<td>-1670437314</td>
+<td>com.assessment01.testsuite.TC004_ContextMenuTest@67c27493</td></tr>
+<tr>
+<td title='com.assessment01.testsuite.TC002_InvalidLoginTest.LaunchBrowser()'><b>LaunchBrowser</b><br>Test class: com.assessment01.testsuite.TC002_InvalidLoginTest</td>
+<td></td>
+<td>-1670437314</td>
+<td>com.assessment01.testsuite.TC002_InvalidLoginTest@1b7cc17c</td></tr>
+<tr>
+<td title='com.assessment01.testsuite.TC009_DynamicLoadingTest.LaunchBrowser()'><b>LaunchBrowser</b><br>Test class: com.assessment01.testsuite.TC009_DynamicLoadingTest</td>
+<td></td>
+<td>-1670437314</td>
+<td>com.assessment01.testsuite.TC009_DynamicLoadingTest@747ddf94</td></tr>
+<tr>
+<td title='com.assessment01.testsuite.TC005_DragDropTest.tearDown()'><b>tearDown</b><br>Test class: com.assessment01.testsuite.TC005_DragDropTest</td>
+<td></td>
+<td>-1670437314</td>
+<td>com.assessment01.testsuite.TC005_DragDropTest@1a482e36</td></tr>
+<tr>
+<td title='com.assessment01.testsuite.TC0014_MouseHoverTest.LaunchBrowser()'><b>LaunchBrowser</b><br>Test class: com.assessment01.testsuite.TC0014_MouseHoverTest</td>
+<td></td>
+<td>-1670437314</td>
+<td>com.assessment01.testsuite.TC0014_MouseHoverTest@223191a6</td></tr>
+<tr>
+<td title='com.assessment01.testsuite.TC0018_NotificationMessageTest.tearDown()'><b>tearDown</b><br>Test class: com.assessment01.testsuite.TC0018_NotificationMessageTest</td>
+<td></td>
+<td>-1670437314</td>
+<td>com.assessment01.testsuite.TC0018_NotificationMessageTest@4efbca5a</td></tr>
+<tr>
+<td title='com.assessment01.testsuite.TC003_AllActionsTest2.LaunchBrowser()'><b>LaunchBrowser</b><br>Test class: com.assessment01.testsuite.TC003_AllActionsTest2</td>
+<td></td>
+<td>-1670437314</td>
+<td>com.assessment01.testsuite.TC003_AllActionsTest2@59662a0b</td></tr>
+<tr>
+<td title='com.assessment01.testsuite.TC0010_FileDownloadTest.tearDown()'><b>tearDown</b><br>Test class: com.assessment01.testsuite.TC0010_FileDownloadTest</td>
+<td></td>
+<td>-1670437314</td>
+<td>com.assessment01.testsuite.TC0010_FileDownloadTest@158d2680</td></tr>
+<tr>
+<td title='com.assessment01.testsuite.TC0011_FileUploadTest.LaunchBrowser()'><b>LaunchBrowser</b><br>Test class: com.assessment01.testsuite.TC0011_FileUploadTest</td>
+<td></td>
+<td>-1670437314</td>
+<td>com.assessment01.testsuite.TC0011_FileUploadTest@6adbc9d</td></tr>
+<tr>
+<td title='com.assessment01.testsuite.TC0015_JavaScriptAlertsTest.LaunchBrowser()'><b>LaunchBrowser</b><br>Test class: com.assessment01.testsuite.TC0015_JavaScriptAlertsTest</td>
+<td></td>
+<td>-1670437314</td>
+<td>com.assessment01.testsuite.TC0015_JavaScriptAlertsTest@49139829</td></tr>
+<tr>
+<td title='com.assessment01.testsuite.TC005_DragDropTest.LaunchBrowser()'><b>LaunchBrowser</b><br>Test class: com.assessment01.testsuite.TC005_DragDropTest</td>
+<td></td>
+<td>-1670437314</td>
+<td>com.assessment01.testsuite.TC005_DragDropTest@1a482e36</td></tr>
+<tr>
+<td title='com.assessment01.testsuite.TC003_CheckboxesTest.tearDown()'><b>tearDown</b><br>Test class: com.assessment01.testsuite.TC003_CheckboxesTest</td>
+<td></td>
+<td>-1670437314</td>
+<td>com.assessment01.testsuite.TC003_CheckboxesTest@77fbd92c</td></tr>
+<tr>
+<td title='com.assessment01.testsuite.TC0016_JavaScriptErrorTest.LaunchBrowser()'><b>LaunchBrowser</b><br>Test class: com.assessment01.testsuite.TC0016_JavaScriptErrorTest</td>
+<td></td>
+<td>-1670437314</td>
+<td>com.assessment01.testsuite.TC0016_JavaScriptErrorTest@9597028</td></tr>
+<tr>
+<td title='com.assessment01.testsuite.TC0018_NotificationMessageTest.LaunchBrowser()'><b>LaunchBrowser</b><br>Test class: com.assessment01.testsuite.TC0018_NotificationMessageTest</td>
+<td></td>
+<td>-1670437314</td>
+<td>com.assessment01.testsuite.TC0018_NotificationMessageTest@4efbca5a</td></tr>
+<tr>
+<td title='com.assessment01.testsuite.TC0017_OpenNewTabTest.LaunchBrowser()'><b>LaunchBrowser</b><br>Test class: com.assessment01.testsuite.TC0017_OpenNewTabTest</td>
+<td></td>
+<td>-1670437314</td>
+<td>com.assessment01.testsuite.TC0017_OpenNewTabTest@6069db50</td></tr>
+<tr>
+<td title='com.assessment01.testsuite.TC0012_FloatingMenuTest.tearDown()'><b>tearDown</b><br>Test class: com.assessment01.testsuite.TC0012_FloatingMenuTest</td>
+<td></td>
+<td>-1670437314</td>
+<td>com.assessment01.testsuite.TC0012_FloatingMenuTest@4550bb58</td></tr>
+<tr>
+<td title='com.assessment01.testsuite.TC0013_IframeTest.tearDown()'><b>tearDown</b><br>Test class: com.assessment01.testsuite.TC0013_IframeTest</td>
+<td></td>
+<td>-1670437314</td>
+<td>com.assessment01.testsuite.TC0013_IframeTest@4ec4f3a0</td></tr>
+<tr>
+<td title='com.assessment01.testsuite.TC0015_JavaScriptAlertsTest.tearDown()'><b>tearDown</b><br>Test class: com.assessment01.testsuite.TC0015_JavaScriptAlertsTest</td>
+<td></td>
+<td>-1670437314</td>
+<td>com.assessment01.testsuite.TC0015_JavaScriptAlertsTest@49139829</td></tr>
+<tr>
+<td title='com.assessment01.testsuite.TC008_DynamicControlsTest.tearDown()'><b>tearDown</b><br>Test class: com.assessment01.testsuite.TC008_DynamicControlsTest</td>
+<td></td>
+<td>-1670437314</td>
+<td>com.assessment01.testsuite.TC008_DynamicControlsTest@2f9f7dcf</td></tr>
+<tr>
+<td title='com.assessment01.testsuite.TC009_DynamicLoadingTest.tearDown()'><b>tearDown</b><br>Test class: com.assessment01.testsuite.TC009_DynamicLoadingTest</td>
+<td></td>
+<td>-1670437314</td>
+<td>com.assessment01.testsuite.TC009_DynamicLoadingTest@747ddf94</td></tr>
+<tr>
+<td title='com.assessment01.testsuite.TC0012_FloatingMenuTest.LaunchBrowser()'><b>LaunchBrowser</b><br>Test class: com.assessment01.testsuite.TC0012_FloatingMenuTest</td>
+<td></td>
+<td>-1670437314</td>
+<td>com.assessment01.testsuite.TC0012_FloatingMenuTest@4550bb58</td></tr>
+<tr>
+<td title='com.assessment01.testsuite.TC0013_IframeTest.LaunchBrowser()'><b>LaunchBrowser</b><br>Test class: com.assessment01.testsuite.TC0013_IframeTest</td>
+<td></td>
+<td>-1670437314</td>
+<td>com.assessment01.testsuite.TC0013_IframeTest@4ec4f3a0</td></tr>
+<tr>
+<td title='com.assessment01.testsuite.TC008_DynamicControlsTest.LaunchBrowser()'><b>LaunchBrowser</b><br>Test class: com.assessment01.testsuite.TC008_DynamicControlsTest</td>
+<td></td>
+<td>-1670437314</td>
+<td>com.assessment01.testsuite.TC008_DynamicControlsTest@2f9f7dcf</td></tr>
+<tr>
+<td title='com.assessment01.testsuite.TC0017_OpenNewTabTest.tearDown()'><b>tearDown</b><br>Test class: com.assessment01.testsuite.TC0017_OpenNewTabTest</td>
+<td></td>
+<td>-1670437314</td>
+<td>com.assessment01.testsuite.TC0017_OpenNewTabTest@6069db50</td></tr>
+<tr>
+<td title='com.assessment01.testsuite.TC006_DropdownTest.LaunchBrowser()'><b>LaunchBrowser</b><br>Test class: com.assessment01.testsuite.TC006_DropdownTest</td>
+<td></td>
+<td>-1670437314</td>
+<td>com.assessment01.testsuite.TC006_DropdownTest@72967906</td></tr>
+<tr>
+<td title='com.assessment01.testsuite.TC007_DynamicContentTest.LaunchBrowser()'><b>LaunchBrowser</b><br>Test class: com.assessment01.testsuite.TC007_DynamicContentTest</td>
+<td></td>
+<td>-1670437314</td>
+<td>com.assessment01.testsuite.TC007_DynamicContentTest@5b8dfcc1</td></tr>
+<tr>
+<td title='com.assessment01.testsuite.TC0016_JavaScriptErrorTest.tearDown()'><b>tearDown</b><br>Test class: com.assessment01.testsuite.TC0016_JavaScriptErrorTest</td>
+<td></td>
+<td>-1670437314</td>
+<td>com.assessment01.testsuite.TC0016_JavaScriptErrorTest@9597028</td></tr>
+<tr>
+<td title='com.assessment01.testsuite.TC003_CheckboxesTest.LaunchBrowser()'><b>LaunchBrowser</b><br>Test class: com.assessment01.testsuite.TC003_CheckboxesTest</td>
+<td></td>
+<td>-1670437314</td>
+<td>com.assessment01.testsuite.TC003_CheckboxesTest@77fbd92c</td></tr>
+<tr>
+<td title='com.assessment01.testsuite.TC007_DynamicContentTest.tearDown()'><b>tearDown</b><br>Test class: com.assessment01.testsuite.TC007_DynamicContentTest</td>
+<td></td>
+<td>-1670437314</td>
+<td>com.assessment01.testsuite.TC007_DynamicContentTest@5b8dfcc1</td></tr>
+<tr>
+<td title='com.assessment01.testsuite.TC006_DropdownTest.tearDown()'><b>tearDown</b><br>Test class: com.assessment01.testsuite.TC006_DropdownTest</td>
+<td></td>
+<td>-1670437314</td>
+<td>com.assessment01.testsuite.TC006_DropdownTest@72967906</td></tr>
+<tr>
+<td title='com.assessment01.testsuite.TC0014_MouseHoverTest.tearDown()'><b>tearDown</b><br>Test class: com.assessment01.testsuite.TC0014_MouseHoverTest</td>
+<td></td>
+<td>-1670437314</td>
+<td>com.assessment01.testsuite.TC0014_MouseHoverTest@223191a6</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.assessment01.testsuite.TC0011_FileUploadTest.fileUpload()'><b>fileUpload</b><br>Test class: com.assessment01.testsuite.TC0011_FileUploadTest</td>
+<td><div><pre>java.lang.Error: Unresolved compilation problem: 
+	Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+
+	at com.Assessment01.reusableclass.BaseClass.LaunchBrowser(BaseClass.java:44)
+	at com.assessment01.testsuite.TC0010_FileDownloadTest.LaunchBrowser(TC0010_FileDownloadTest.java:24)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace594427726", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace594427726'><pre>java.lang.Error: Unresolved compilation problem: 
+	Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+
+	at com.Assessment01.reusableclass.BaseClass.LaunchBrowser(BaseClass.java:44)
+	at com.assessment01.testsuite.TC0010_FileDownloadTest.LaunchBrowser(TC0010_FileDownloadTest.java:24)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+	at org.testng.TestRunner.run(TestRunner.java:589)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.assessment01.testsuite.TC0011_FileUploadTest@6adbc9d</td></tr>
+<tr>
+<td title='com.assessment01.testsuite.TC003_AllActionsTest2.submitLogin()'><b>submitLogin</b><br>Test class: com.assessment01.testsuite.TC003_AllActionsTest2</td>
+<td><div><pre>java.lang.Error: Unresolved compilation problem: 
+	Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+
+	at com.Assessment01.reusableclass.BaseClass.LaunchBrowser(BaseClass.java:44)
+	at com.assessment01.testsuite.TC0010_FileDownloadTest.LaunchBrowser(TC0010_FileDownloadTest.java:24)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1190820921", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1190820921'><pre>java.lang.Error: Unresolved compilation problem: 
+	Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+
+	at com.Assessment01.reusableclass.BaseClass.LaunchBrowser(BaseClass.java:44)
+	at com.assessment01.testsuite.TC0010_FileDownloadTest.LaunchBrowser(TC0010_FileDownloadTest.java:24)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+	at org.testng.TestRunner.run(TestRunner.java:589)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.assessment01.testsuite.TC003_AllActionsTest2@59662a0b</td></tr>
+<tr>
+<td title='com.assessment01.testsuite.TC005_DragDropTest.dragNdrop()'><b>dragNdrop</b><br>Test class: com.assessment01.testsuite.TC005_DragDropTest</td>
+<td><div><pre>java.lang.Error: Unresolved compilation problem: 
+	Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+
+	at com.Assessment01.reusableclass.BaseClass.LaunchBrowser(BaseClass.java:44)
+	at com.assessment01.testsuite.TC0010_FileDownloadTest.LaunchBrowser(TC0010_FileDownloadTest.java:24)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace137460818", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace137460818'><pre>java.lang.Error: Unresolved compilation problem: 
+	Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+
+	at com.Assessment01.reusableclass.BaseClass.LaunchBrowser(BaseClass.java:44)
+	at com.assessment01.testsuite.TC0010_FileDownloadTest.LaunchBrowser(TC0010_FileDownloadTest.java:24)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+	at org.testng.TestRunner.run(TestRunner.java:589)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.assessment01.testsuite.TC005_DragDropTest@1a482e36</td></tr>
+<tr>
+<td title='com.assessment01.testsuite.TC004_ContextMenuTest.submitLogin()'><b>submitLogin</b><br>Test class: com.assessment01.testsuite.TC004_ContextMenuTest</td>
+<td><div><pre>java.lang.Error: Unresolved compilation problem: 
+	Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+
+	at com.Assessment01.reusableclass.BaseClass.LaunchBrowser(BaseClass.java:44)
+	at com.assessment01.testsuite.TC0010_FileDownloadTest.LaunchBrowser(TC0010_FileDownloadTest.java:24)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1600667055", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1600667055'><pre>java.lang.Error: Unresolved compilation problem: 
+	Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+
+	at com.Assessment01.reusableclass.BaseClass.LaunchBrowser(BaseClass.java:44)
+	at com.assessment01.testsuite.TC0010_FileDownloadTest.LaunchBrowser(TC0010_FileDownloadTest.java:24)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+	at org.testng.TestRunner.run(TestRunner.java:589)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.assessment01.testsuite.TC004_ContextMenuTest@67c27493</td></tr>
+<tr>
+<td title='com.assessment01.testsuite.TC009_DynamicLoadingTest.submitLogin()'><b>submitLogin</b><br>Test class: com.assessment01.testsuite.TC009_DynamicLoadingTest</td>
+<td><div><pre>java.lang.Error: Unresolved compilation problem: 
+	Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+
+	at com.Assessment01.reusableclass.BaseClass.LaunchBrowser(BaseClass.java:44)
+	at com.assessment01.testsuite.TC0010_FileDownloadTest.LaunchBrowser(TC0010_FileDownloadTest.java:24)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace773662650", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace773662650'><pre>java.lang.Error: Unresolved compilation problem: 
+	Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+
+	at com.Assessment01.reusableclass.BaseClass.LaunchBrowser(BaseClass.java:44)
+	at com.assessment01.testsuite.TC0010_FileDownloadTest.LaunchBrowser(TC0010_FileDownloadTest.java:24)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+	at org.testng.TestRunner.run(TestRunner.java:589)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.assessment01.testsuite.TC009_DynamicLoadingTest@747ddf94</td></tr>
+<tr>
+<td title='com.assessment01.testsuite.TC002_InvalidLoginTest.submitLogin()'><b>submitLogin</b><br>Test class: com.assessment01.testsuite.TC002_InvalidLoginTest</td>
+<td><div><pre>java.lang.Error: Unresolved compilation problem: 
+	Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+
+	at com.Assessment01.reusableclass.BaseClass.LaunchBrowser(BaseClass.java:44)
+	at com.assessment01.testsuite.TC0010_FileDownloadTest.LaunchBrowser(TC0010_FileDownloadTest.java:24)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1103243338", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1103243338'><pre>java.lang.Error: Unresolved compilation problem: 
+	Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+
+	at com.Assessment01.reusableclass.BaseClass.LaunchBrowser(BaseClass.java:44)
+	at com.assessment01.testsuite.TC0010_FileDownloadTest.LaunchBrowser(TC0010_FileDownloadTest.java:24)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+	at org.testng.TestRunner.run(TestRunner.java:589)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.assessment01.testsuite.TC002_InvalidLoginTest@1b7cc17c</td></tr>
+<tr>
+<td title='com.assessment01.testsuite.TC0018_NotificationMessageTest.submitLogin()'><b>submitLogin</b><br>Test class: com.assessment01.testsuite.TC0018_NotificationMessageTest</td>
+<td><div><pre>java.lang.Error: Unresolved compilation problem: 
+	Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+
+	at com.Assessment01.reusableclass.BaseClass.LaunchBrowser(BaseClass.java:44)
+	at com.assessment01.testsuite.TC0010_FileDownloadTest.LaunchBrowser(TC0010_FileDownloadTest.java:24)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace201576232", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace201576232'><pre>java.lang.Error: Unresolved compilation problem: 
+	Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+
+	at com.Assessment01.reusableclass.BaseClass.LaunchBrowser(BaseClass.java:44)
+	at com.assessment01.testsuite.TC0010_FileDownloadTest.LaunchBrowser(TC0010_FileDownloadTest.java:24)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+	at org.testng.TestRunner.run(TestRunner.java:589)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.assessment01.testsuite.TC0018_NotificationMessageTest@4efbca5a</td></tr>
+<tr>
+<td title='com.assessment01.testsuite.TC0012_FloatingMenuTest.submitLogin()'><b>submitLogin</b><br>Test class: com.assessment01.testsuite.TC0012_FloatingMenuTest</td>
+<td><div><pre>java.lang.Error: Unresolved compilation problem: 
+	Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+
+	at com.Assessment01.reusableclass.BaseClass.LaunchBrowser(BaseClass.java:44)
+	at com.assessment01.testsuite.TC0010_FileDownloadTest.LaunchBrowser(TC0010_FileDownloadTest.java:24)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1810899357", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1810899357'><pre>java.lang.Error: Unresolved compilation problem: 
+	Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+
+	at com.Assessment01.reusableclass.BaseClass.LaunchBrowser(BaseClass.java:44)
+	at com.assessment01.testsuite.TC0010_FileDownloadTest.LaunchBrowser(TC0010_FileDownloadTest.java:24)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+	at org.testng.TestRunner.run(TestRunner.java:589)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.assessment01.testsuite.TC0012_FloatingMenuTest@4550bb58</td></tr>
+<tr>
+<td title='com.assessment01.testsuite.TC003_CheckboxesTest.submitLogin()'><b>submitLogin</b><br>Test class: com.assessment01.testsuite.TC003_CheckboxesTest</td>
+<td><div><pre>java.lang.Error: Unresolved compilation problem: 
+	Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+
+	at com.Assessment01.reusableclass.BaseClass.LaunchBrowser(BaseClass.java:44)
+	at com.assessment01.testsuite.TC0010_FileDownloadTest.LaunchBrowser(TC0010_FileDownloadTest.java:24)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1332210474", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1332210474'><pre>java.lang.Error: Unresolved compilation problem: 
+	Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+
+	at com.Assessment01.reusableclass.BaseClass.LaunchBrowser(BaseClass.java:44)
+	at com.assessment01.testsuite.TC0010_FileDownloadTest.LaunchBrowser(TC0010_FileDownloadTest.java:24)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+	at org.testng.TestRunner.run(TestRunner.java:589)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.assessment01.testsuite.TC003_CheckboxesTest@77fbd92c</td></tr>
+<tr>
+<td title='com.assessment01.testsuite.TC002_InvalidLoginTest.enterLoginDetails()'><b>enterLoginDetails</b><br>Test class: com.assessment01.testsuite.TC002_InvalidLoginTest</td>
+<td><div><pre>java.lang.Error: Unresolved compilation problem: 
+	Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+
+	at com.Assessment01.reusableclass.BaseClass.LaunchBrowser(BaseClass.java:44)
+	at com.assessment01.testsuite.TC0010_FileDownloadTest.LaunchBrowser(TC0010_FileDownloadTest.java:24)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1687662712", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1687662712'><pre>java.lang.Error: Unresolved compilation problem: 
+	Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+
+	at com.Assessment01.reusableclass.BaseClass.LaunchBrowser(BaseClass.java:44)
+	at com.assessment01.testsuite.TC0010_FileDownloadTest.LaunchBrowser(TC0010_FileDownloadTest.java:24)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+	at org.testng.TestRunner.run(TestRunner.java:589)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.assessment01.testsuite.TC002_InvalidLoginTest@1b7cc17c</td></tr>
+<tr>
+<td title='com.assessment01.testsuite.TC0014_MouseHoverTest.mouseHover()'><b>mouseHover</b><br>Test class: com.assessment01.testsuite.TC0014_MouseHoverTest</td>
+<td><div><pre>java.lang.Error: Unresolved compilation problem: 
+	Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+
+	at com.Assessment01.reusableclass.BaseClass.LaunchBrowser(BaseClass.java:44)
+	at com.assessment01.testsuite.TC0010_FileDownloadTest.LaunchBrowser(TC0010_FileDownloadTest.java:24)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace57497692", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace57497692'><pre>java.lang.Error: Unresolved compilation problem: 
+	Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+
+	at com.Assessment01.reusableclass.BaseClass.LaunchBrowser(BaseClass.java:44)
+	at com.assessment01.testsuite.TC0010_FileDownloadTest.LaunchBrowser(TC0010_FileDownloadTest.java:24)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+	at org.testng.TestRunner.run(TestRunner.java:589)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.assessment01.testsuite.TC0014_MouseHoverTest@223191a6</td></tr>
+<tr>
+<td title='com.assessment01.testsuite.TC0016_JavaScriptErrorTest.testJSError()'><b>testJSError</b><br>Test class: com.assessment01.testsuite.TC0016_JavaScriptErrorTest</td>
+<td><div><pre>java.lang.Error: Unresolved compilation problem: 
+	Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+
+	at com.Assessment01.reusableclass.BaseClass.LaunchBrowser(BaseClass.java:44)
+	at com.assessment01.testsuite.TC0010_FileDownloadTest.LaunchBrowser(TC0010_FileDownloadTest.java:24)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1016363973", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1016363973'><pre>java.lang.Error: Unresolved compilation problem: 
+	Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+
+	at com.Assessment01.reusableclass.BaseClass.LaunchBrowser(BaseClass.java:44)
+	at com.assessment01.testsuite.TC0010_FileDownloadTest.LaunchBrowser(TC0010_FileDownloadTest.java:24)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+	at org.testng.TestRunner.run(TestRunner.java:589)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.assessment01.testsuite.TC0016_JavaScriptErrorTest@9597028</td></tr>
+<tr>
+<td title='com.assessment01.testsuite.TC008_DynamicControlsTest.testDynamicControls()'><b>testDynamicControls</b><br>Test class: com.assessment01.testsuite.TC008_DynamicControlsTest</td>
+<td><div><pre>java.lang.Error: Unresolved compilation problem: 
+	Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+
+	at com.Assessment01.reusableclass.BaseClass.LaunchBrowser(BaseClass.java:44)
+	at com.assessment01.testsuite.TC0010_FileDownloadTest.LaunchBrowser(TC0010_FileDownloadTest.java:24)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace752684363", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace752684363'><pre>java.lang.Error: Unresolved compilation problem: 
+	Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+
+	at com.Assessment01.reusableclass.BaseClass.LaunchBrowser(BaseClass.java:44)
+	at com.assessment01.testsuite.TC0010_FileDownloadTest.LaunchBrowser(TC0010_FileDownloadTest.java:24)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+	at org.testng.TestRunner.run(TestRunner.java:589)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.assessment01.testsuite.TC008_DynamicControlsTest@2f9f7dcf</td></tr>
+<tr>
+<td title='com.assessment01.testsuite.TC0017_OpenNewTabTest.submitLogin()'><b>submitLogin</b><br>Test class: com.assessment01.testsuite.TC0017_OpenNewTabTest</td>
+<td><div><pre>java.lang.Error: Unresolved compilation problem: 
+	Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+
+	at com.Assessment01.reusableclass.BaseClass.LaunchBrowser(BaseClass.java:44)
+	at com.assessment01.testsuite.TC0010_FileDownloadTest.LaunchBrowser(TC0010_FileDownloadTest.java:24)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1442191055", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1442191055'><pre>java.lang.Error: Unresolved compilation problem: 
+	Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+
+	at com.Assessment01.reusableclass.BaseClass.LaunchBrowser(BaseClass.java:44)
+	at com.assessment01.testsuite.TC0010_FileDownloadTest.LaunchBrowser(TC0010_FileDownloadTest.java:24)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+	at org.testng.TestRunner.run(TestRunner.java:589)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.assessment01.testsuite.TC0017_OpenNewTabTest@6069db50</td></tr>
+<tr>
+<td title='com.assessment01.testsuite.TC0013_IframeTest.submitLogin()'><b>submitLogin</b><br>Test class: com.assessment01.testsuite.TC0013_IframeTest</td>
+<td><div><pre>java.lang.Error: Unresolved compilation problem: 
+	Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+
+	at com.Assessment01.reusableclass.BaseClass.LaunchBrowser(BaseClass.java:44)
+	at com.assessment01.testsuite.TC0010_FileDownloadTest.LaunchBrowser(TC0010_FileDownloadTest.java:24)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1595282218", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1595282218'><pre>java.lang.Error: Unresolved compilation problem: 
+	Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+
+	at com.Assessment01.reusableclass.BaseClass.LaunchBrowser(BaseClass.java:44)
+	at com.assessment01.testsuite.TC0010_FileDownloadTest.LaunchBrowser(TC0010_FileDownloadTest.java:24)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+	at org.testng.TestRunner.run(TestRunner.java:589)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.assessment01.testsuite.TC0013_IframeTest@4ec4f3a0</td></tr>
+<tr>
+<td title='com.assessment01.testsuite.TC006_DropdownTest.submitLogin()'><b>submitLogin</b><br>Test class: com.assessment01.testsuite.TC006_DropdownTest</td>
+<td><div><pre>java.lang.Error: Unresolved compilation problem: 
+	Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+
+	at com.Assessment01.reusableclass.BaseClass.LaunchBrowser(BaseClass.java:44)
+	at com.assessment01.testsuite.TC0010_FileDownloadTest.LaunchBrowser(TC0010_FileDownloadTest.java:24)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1760126453", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1760126453'><pre>java.lang.Error: Unresolved compilation problem: 
+	Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+
+	at com.Assessment01.reusableclass.BaseClass.LaunchBrowser(BaseClass.java:44)
+	at com.assessment01.testsuite.TC0010_FileDownloadTest.LaunchBrowser(TC0010_FileDownloadTest.java:24)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+	at org.testng.TestRunner.run(TestRunner.java:589)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.assessment01.testsuite.TC006_DropdownTest@72967906</td></tr>
+<tr>
+<td title='com.assessment01.testsuite.TC0015_JavaScriptAlertsTest.testJSAlerts()'><b>testJSAlerts</b><br>Test class: com.assessment01.testsuite.TC0015_JavaScriptAlertsTest</td>
+<td><div><pre>java.lang.Error: Unresolved compilation problem: 
+	Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+
+	at com.Assessment01.reusableclass.BaseClass.LaunchBrowser(BaseClass.java:44)
+	at com.assessment01.testsuite.TC0010_FileDownloadTest.LaunchBrowser(TC0010_FileDownloadTest.java:24)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1729779847", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1729779847'><pre>java.lang.Error: Unresolved compilation problem: 
+	Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+
+	at com.Assessment01.reusableclass.BaseClass.LaunchBrowser(BaseClass.java:44)
+	at com.assessment01.testsuite.TC0010_FileDownloadTest.LaunchBrowser(TC0010_FileDownloadTest.java:24)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+	at org.testng.TestRunner.run(TestRunner.java:589)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.assessment01.testsuite.TC0015_JavaScriptAlertsTest@49139829</td></tr>
+<tr>
+<td title='com.assessment01.testsuite.TC0010_FileDownloadTest.submitLogin()'><b>submitLogin</b><br>Test class: com.assessment01.testsuite.TC0010_FileDownloadTest</td>
+<td><div><pre>java.lang.Error: Unresolved compilation problem: 
+	Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+
+	at com.Assessment01.reusableclass.BaseClass.LaunchBrowser(BaseClass.java:44)
+	at com.assessment01.testsuite.TC0010_FileDownloadTest.LaunchBrowser(TC0010_FileDownloadTest.java:24)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace73181251", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace73181251'><pre>java.lang.Error: Unresolved compilation problem: 
+	Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+
+	at com.Assessment01.reusableclass.BaseClass.LaunchBrowser(BaseClass.java:44)
+	at com.assessment01.testsuite.TC0010_FileDownloadTest.LaunchBrowser(TC0010_FileDownloadTest.java:24)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+	at org.testng.TestRunner.run(TestRunner.java:589)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.assessment01.testsuite.TC0010_FileDownloadTest@158d2680</td></tr>
+<tr>
+<td title='com.assessment01.testsuite.TC007_DynamicContentTest.submitLogin()'><b>submitLogin</b><br>Test class: com.assessment01.testsuite.TC007_DynamicContentTest</td>
+<td><div><pre>java.lang.Error: Unresolved compilation problem: 
+	Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+
+	at com.Assessment01.reusableclass.BaseClass.LaunchBrowser(BaseClass.java:44)
+	at com.assessment01.testsuite.TC0010_FileDownloadTest.LaunchBrowser(TC0010_FileDownloadTest.java:24)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1819776360", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1819776360'><pre>java.lang.Error: Unresolved compilation problem: 
+	Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+
+	at com.Assessment01.reusableclass.BaseClass.LaunchBrowser(BaseClass.java:44)
+	at com.assessment01.testsuite.TC0010_FileDownloadTest.LaunchBrowser(TC0010_FileDownloadTest.java:24)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+	at org.testng.TestRunner.run(TestRunner.java:589)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.assessment01.testsuite.TC007_DynamicContentTest@5b8dfcc1</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<parameter name="browserName" value="chrome" />
+	<test name="TC001_Login_validandInvalidCredentials">
+		<classes>
+			<class name="com.tests.assessment.TC001_Login" />
+		</classes>
+	</test>
+	<test name="TC003_CheckboxesTest">
+		<classes>
+			<class name="com.tests.assessment.TC003_CheckboxesTest" />
+		</classes>
+	</test>
+
+	<test name="TC004_ContextMenuTest">
+		<classes>
+			<class name="com.tests.assessment.TC004_ContextMenuTest" />
+		</classes>
+	</test>
+
+	<test name="TC005_DragDropTest">
+		<classes>
+			<class name="com.tests.assessment.TC005_DragDropTest" />
+		</classes>
+	</test>
+
+	<test name="TC006_DropdownTest">
+		<classes>
+			<class name="com.tests.assessment.TC006_DropdownTest" />
+		</classes>
+	</test>
+
+	<test name="TC007_DynamicContentTest">
+		<classes>
+			<class
+				name="com.tests.assessment.TC007_DynamicContentTest" />
+		</classes>
+	</test>
+
+	<test name="TC008_DynamicControlsTest">
+		<classes>
+			<class name="com.tests.assessment.TC008_DynamicControlsTest" />
+		</classes>
+	</test>
+
+	<test name="TC009_DynamicLoadingTest">
+		<classes>
+			<class name="com.tests.assessment.TC009_DynamicLoadingTest" />
+		</classes>
+	</test>
+
+	<test name="TC0010_FileDownloadTest">
+		<classes>
+			<class name="com.tests.assessment.TC0010_FileDownloadTest" />
+		</classes>
+	</test>
+
+	<test name="TC0011_FileUploadTest">
+		<classes>
+			<class name="com.tests.assessment.TC0011_FileUploadTest" />
+		</classes>
+	</test>
+
+	<test name="TC0012_FloatingMenuTest">
+		<classes>
+			<class name="com.tests.assessment.TC0012_FloatingMenuTest" />
+		</classes>
+	</test>
+
+	<test name="TC0013_IframeTest">
+		<classes> 
+			<class name="com.tests.assessment.TC0013_IframeTest" />
+		</classes>
+	</test>
+
+	<test name="TC0014_MouseHoverTest">
+		<classes>
+			<class name="com.tests.assessment.TC0014_MouseHoverTest" />
+		</classes>
+	</test>
+
+	<test name="TC0015_JavaScriptAlertsTest">
+		<classes>
+			<class name="com.tests.assessment.TC0015_JavaScriptAlertsTest" />
+		</classes>
+	</test>
+
+	<test name="TC0016_JavaScriptErrorTest">
+		<classes>
+			<class
+				name="com.tests.assessment.TC0016_JavaScriptErrorTest" />
+		</classes>
+	</test>
+
+	<test name="TC0017_OpenNewTabTest">
+		<classes>
+			<class name="com.tests.assessment.TC0017_OpenNewTabTest" />
+		</classes>
+	</test>
+
+	<test name="TC0018_NotificationMessageTest">
+		<classes>
+			<class name="com.tests.assessment.TC0018_NotificationMessageTest" />
+		</classes>
+	</test>
+</suite> 
